@@ -72,7 +72,7 @@ $$
      \end{bmatrix}
   $$
   
-The first system of linear equations can be solved to obtain $f_{x}$ and $c_{x}$. Likewise, $f_{y}$ and $c_{y} can be obtained by solving the second system of linear equations.
+The first system of linear equations can be solved to obtain $f_{x}$ and $c_{x}$. Likewise, $f_{y}$ and $c_{y}$ can be obtained by solving the second system of linear equations.
 
 ## 2 Solutions (to-be-added)
 Methods to solve for the intrinsic parameters can be categorized into either direct computation, or numerical optimization.
