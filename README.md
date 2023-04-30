@@ -18,7 +18,7 @@ Certain AR/MR devices do not provide intrinsic values directly for their cameras
 
 Most popular computer vision libraries (e.g. OpenCV) require a 3x3 intrinsic matrix for their functions. Rewriting these functions to accomodate the high-level 2D-3D mapping functions from the aforementioned devices is an extremely tedious task.
 
-We intend to recover these intrinsic parameters by sampling pixel-ray correspondences obtained from these high-level functions and using them to solve for the 4 intrinsic parameters $f_x$, $f_y$, $c_x$ and $c_y$.
+We intend to recover these intrinsic parameters by sampling pixel-ray correspondences obtained from these high-level functions and use them to solve for the 4 intrinsic parameters $f_x$, $f_y$, $c_x$ and $c_y$.
 
 Ultimately, this problem can be formulated as two systems of linear equations $Ax = b$ as follows:
 
